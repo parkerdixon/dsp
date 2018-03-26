@@ -20,8 +20,7 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > pwd; mkdir path; rm -r path; touch fname; rm fname; mv old fname new fname; ls -ld .?*; cp fname dir; cd dir; ls
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,7 +34,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+list all visible contents of current directory
+list all contents, incl. hidden, of current directory
+list all contents of curr dir in long form
+lists size of all visible folders/files
+lists size of all visible and hidden folders/files
+lists all contents by date of last edit
+lists contents and counts of files
 
 ---
 
@@ -43,15 +49,19 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > ls -u shows files by access time
+    ls -F flags file names
+    ls -R shows sub-directories
+    ls -m shows contents as comma separated
+    ls -p shows directories with "/"
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs executes a specific command once for each specified argument passed
+xargs can be used to perform a command on all files or directories that meet a specified condition. For example, find all files that contain a certain string, and remove them
 
  
 
