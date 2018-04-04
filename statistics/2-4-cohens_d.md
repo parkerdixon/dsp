@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> firsts, others = first.MakeFrames()/n
+>> firsts, others = first.MakeFrames() <br />
   xBar1 = firsts.totalwgt_lb.mean()/n
   xBar2 = others.totalwgt_lb.mean()/n
   n1 = firsts.count(numeric_only=True)/n
