@@ -3,14 +3,12 @@
 >> import nsfg <br />
   import thinkstats2 <br />
   import thinkplot <br />
-  <br />
   def BiasPmf(pmf, label):<br />
       new_pmf = pmf.Copy(label=label)<br />
       for x, p in pmf.Items():<br />
           new_pmf.Mult(x, x)<br />
           new_pmf.Normalize()<br />
       return new_pmf<br />
-  <br />
   resp = nsfg.ReadFemResp()<br />
   numChildren = resp.numkdhh<br />
   pmf = thinkstats2.Pmf(numChildren)<br />
