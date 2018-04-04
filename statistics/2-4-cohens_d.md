@@ -10,3 +10,6 @@
   diff = xBar1 - xBar2<br />
   pooled_var = (n1.totalwgt_lb * s1 + n2.totalwgt_lb * s2)/(n1.totalwgt_lb + n2.totalwgt_lb)<br />
   d = diff / pooled_var ** .5<br />
+  """<br />
+  The difference between birthweight and pregnancy length are similar, with both having unnoticeable differences and birthweight having a larger difference in standard deviation <br />
+  """
